@@ -44,3 +44,10 @@ img{
 #menu{
 	color: black;
 }
+#menu img{
+	height: 90vh;
+	width: auto;
+}
+#contact{
+	color: black;
+}
