@@ -18,12 +18,8 @@ max-width: 100%;
 	font-weight: 700;
 	margin-right: 0;
 }
-@media only screen 
-and (min-device-width : 375px) 
-	and (max-device-width : 667px){
-    font-size: 5vw;
-  }
-}
+
+
 img{
   display: block;
   max-width: 100%;
@@ -33,7 +29,7 @@ img{
 
 #OurName {
   position: absolute;
-	font-size: 7vh;
+	font-size: 5vw;
 	width: 900px;
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
@@ -42,13 +38,7 @@ img{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media only screen 
-and (min-device-width : 375px) 
-	and (max-device-width : 667px){
-  #OurName {
-    font-size: 5vh;
-  }
-}
+
 #about{
 	margin-top: 50px;
 	color: black;
