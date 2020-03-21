@@ -51,24 +51,76 @@
 </div>
 	
 
-<div class ="container" id ="about">
+<div class ="container navItem" id ="about">
 	<h2> ABOUT US</h1>
-	<p class = aboutP> Terri Davis is the proud owner and chef of Taste the Difference Events. She built the company from a small home-based bakery, selling cakes to local supermarkets, to a full service catering and events company. Although our bread and butter are corporate catering and events, we are also skilled in the elaborate detailing necessary for private functions.</br></p>
-	<p class = aboutP> We offer corporate and residential event catering including weddings and birthdays… If You Can Dream It We Can Do It!</p>
+	<p class = aboutP> Terri Davis is the proud owner and chef of Taste the Difference Events. She built the company from a small home-based bakery, selling cakes to local supermarkets, to a full service catering and events company. Although our bread and butter are corporate catering and events, we are also skilled in the elaborate detailing necessary for private functions.</br></br> We offer corporate and residential event catering including weddings and birthdays… <span id ="dream">If You Can Dream It We Can Do It!</span></p>
 </div>
 
-<div class ="container" id ="menu">
+<div class ="container navItem" id ="menu">
 	<h2>SAMPLE MENU</h2>
 	<img class = "float-left" src="pablo-merchan-montes-dc_JMu8lb5U-unsplash.jpg" alt =burger>
-	<p id =price> $25 per person</p>
-	<p id ="sampMenu"> Full-Service Bar</br>Lemon Basil Roast Chicken</br>Teriyaki Salmon</br>Roast Garlic Mashed Potatoes</br>Asparagus</br> Sweet Potato Pie</br> Assorted Pastries</p>
+	<!-- <p id =price> $25 per person</p>
+	<p id ="sampMenu"> Full-Service Bar</br>Lemon Basil Roast Chicken</br>Teriyaki Salmon</br>Roast Garlic Mashed Potatoes</br>Asparagus</br> Sweet Potato Pie</br> Assorted Pastries</p> -->
+	
+	<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Corporate Lunch
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Freshly-Squeezed juice</br>Lemon Basil Roast Chicken</br>Teriyaki Salmon</br>Roast Garlic Mashed Potatoes</br>Asparagus</br> Sweet Potato Pie</br> Assorted Pastries
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Wedding
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Full-Service Bar</br>Lemon Basil Roast Chicken</br>Teriyaki Salmon</br>Roast Garlic Mashed Potatoes</br>Asparagus</br> Sweet Potato Pie</br> Assorted Pastries
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        Baby Shower
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+          Freshly-Squeezed juice</br>Lemon Basil Roast Chicken</br>Teriyaki Salmon</br>Roast Garlic Mashed Potatoes</br>Asparagus</br> Sweet Potato Pie</br> Assorted Pastries
+      </div>
+    </div>
+  </div>
+
+</div>
 </div>
 
-<div class="container" id ="contact">
+<div class="container navItem" id ="contact">
 	<h2>CONTACT US</h2>
 	<p>Owner/Chef: Terri Davis</br>Phone: (267) 259-8313</br>Email: Tastedifference@aol.com</p>
-
+	<img class = "mx-auto d-blocl" src="MediumSquareLogo.png" alt="TasteTheDifferenceLogo">
 </div>
+
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://tastethedifferenceevents.com/"> Tastethedifferenceevents</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 	
 </body>
 

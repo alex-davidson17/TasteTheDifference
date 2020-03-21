@@ -1,14 +1,16 @@
 
-body{
-	padding-top: 70px;
-
+body {
+text-align: center;
 }
+
 .container {
   position: relative;
   text-align: center;
   color: white;
 	padding: 0;
-	width: 100%;
+}
+.container.navItem{
+	padding-top: 100px;
 }
 .navbar-brand{
 	font-size: 3vw;
@@ -37,17 +39,52 @@ img{
 	margin-top: 50px;
 	color: black;
 }
-#about P{
-	font-size: 3vh;
-	
+#about h2{
+	font-size: 7vh;
+	color: #E88E3C;
+}
+#about p{
+	padding-top: 10px;
+	font-size: 5vh;
+}
+#dream{
+	font-style: italic;
+	font-weight: bold;
 }
 #menu{
+	font-size: 4vh;
 	color: black;
+}
+#menu h2{
+	padding-bottom: 10px;
+	color: #E88E3C;
+	font-size: 7vh;
 }
 #menu img{
 	height: 90vh;
 	width: auto;
 }
-#contact{
+.card-header{
+	background-color: white;
+	text-align: center;
+}
+.card-link{
+	font-size:6vh;
 	color: black;
+}
+#contact{
+	display: inline-block;
+	font-size: 5vh;
+	color: black;
+}
+#contact h2{
+	padding-bottom: 10px;
+	color: #E88E3C;
+	font-size: 7vh;
+}
+#contact img{
+	width: 30%;
+}
+footer a{
+	color: #78B755;
 }
